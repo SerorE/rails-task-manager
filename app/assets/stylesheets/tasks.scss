@@ -1,0 +1,36 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// Import your layouts CSS files here.
+// Examples:
+// @import "dashboard";
+// @import "profile";
+// @import "map";
+body{
+background-color: rgb(220,220,220);
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+
+h1 {
+letter-spacing: 3px;
+  }
+}
+
+.options-task {
+  margin: 10px;
+}
+
+
+.link {
+text-decoration: none;
+color: rgb(100,100,100);
+&:hover {
+  color: rgb(50,50,50);
+}
+}
+
+.single-task {
+  margin-top: 30px;
+}
